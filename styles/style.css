@@ -1,0 +1,584 @@
+/* START: NAVIGATION FORMATTING 
+   ---------------------------- */
+
+
+/* ----------------------------
+ END: NAVIGATION FORMATTING */
+
+
+
+
+/* START: PAGE WIDE FORMATTING */
+/* --------------------------- */
+
+/* Main content */
+#main {
+    margin-top: 46px; /* Add a top margin to avoid content overlay */
+    background-color: #FFFFFF;
+/*
+    margin: 0;
+    padding: 0;
+*/
+    width: 100%;
+    margin: auto;
+    
+    
+    
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+    
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+    z-index: 10;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:first-of-type {
+    float: left;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/*  Headings    */
+h1{
+    font-family: 'Crimson Text', serif;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: -20px;
+}
+h2 {
+    font-family:  'Crimson Text', serif;
+    font-size: 30px;
+/*    30px*/
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #777777;
+}
+h3{
+    font-family:  'Crimson Text', serif;
+    font-size: 25px;
+    
+
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+.emails{
+    font-family:  'Crimson Text', serif;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: -4px;
+    
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-left: 3%;
+    padding-top: 8px;
+}
+p.emails {
+    margin-left: -1px;
+}
+
+/*  Images  */
+.indexImg{
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+    height: 140px;
+    width: 225px;
+    border: 2px solid #000000;
+    align-content: center;
+}
+
+.contactIcon1{
+    border: none;
+    width: 80px;
+    height: 70px;
+    align-content: center;
+    margin-top: 22px;
+    margin-bottom: 10px;
+
+}
+
+.contactIcon2{
+    border: none;
+    width: 95px;
+    height: 95px;
+    align-content: center;
+    margin-top: 4px;
+
+}
+
+/*  Tables  */
+table{
+    margin-left: 3%;
+    border-spacing: 15px 5px;
+}
+
+th{
+    font-family:  'Crimson Text', serif;
+    font-size: 18px;
+    background-color: #E2F3F3;
+        background-color: #FFFFFF;
+
+}
+
+.thMain{
+    font-family:  'Crimson Text', serif;
+    font-size: 20px;
+    border-bottom: 4px solid #000000;
+    border-top: 1px solid;
+
+    padding-right: 100px;
+    padding-left: 100px;
+
+   
+    
+    letter-spacing: .001em;
+    background-color: #AAC7DA;
+}
+
+td {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    padding-left: 3px;
+   
+}
+
+/*  Lists   */
+.course{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    letter-spacing: .001em;
+}
+ul li{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    display: inline;
+}
+
+section {
+/*    display: inline-block;*/
+/*    display: table;*/
+    background-color: #FFFFFF;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+
+}
+.section1 {
+    display: flex;
+    width: auto;
+/*    margin: auto;*/
+/*    width: 75%;*/
+    background-color: #FFFFFF;
+}
+
+
+article {
+    background-color: #F0F4FA;
+    padding: 5px;
+/*    margin-top: 20px;*/
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    box-shadow: 5px 5px 10px #777777;
+    min-height: 263px;
+}
+#articleTable {
+margin: auto;
+}
+
+#container {
+    background-color: red;
+}
+
+.article1 {
+/*    float: left;*/
+/* margins */ 
+    display: flex;
+    width: 700px;
+    margin: auto;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    background-color: white;
+
+/* Size */
+    height: 400px;
+/*    width: 75%;*/
+/* Borders */
+        box-shadow: none;
+
+/*    box-shadow: inset 0 0 15px #777777;*/
+    border-radius: 20px;
+}
+
+iframe {
+    float: left;
+/* Size */
+    min-height: 336px;
+    min-width: 300px;
+/* margins */ 
+    margin: auto;
+    margin-right: auto;
+/* Borders */
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+#contactContainer {
+    float: left;
+    margin-right: 40px;
+}
+
+
+/* Header Image and Page Description */
+#acTop {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* ---- image adjustments --- */
+    background-image: url("../images/unlSky.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#projTop {
+  position: relative;
+  text-align: center;
+  color: white;
+    
+    /* ---- image adjustments --- */
+    background-image: url("../images/DegCompEngBanner.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+#indexTop {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* ---- image adjustments --- */
+    background-image: url("../images/meImg.jpeg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#contactTop {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* ---- image adjustments --- */
+    background-image: url("../images/linc.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+}
+.pageDes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: darkgray;
+    padding-top: -5px;
+    background: rgba(0, 0, 0, 0.6);
+    min-width: 467px;
+}
+
+footer {
+    color: #f2f2f2;
+    background-color: #333;
+    position: relative;
+    bottom: 0px;
+    padding: 1rem;
+    text-align: center;
+    width: auto;
+}
+/* -------------------------- */
+/* END: PAGE WIDE FORMATTING */
+
+
+
+/* START: ACADEMICS PAGE */
+.fileLink:visited{
+    color: white;
+}
+.fileLink:hover{
+    color: cornflowerblue;
+}
+/* END: ACADEMICS PAGE */
+
+
+
+
+/* START: STYLING FOR PROJECTS PAGE */
+
+
+.proj{
+    height: auto;
+    width: auto;
+    max-width: auto;
+/*    float: left;*/
+    margin: 15px;
+    margin-bottom: 35px;
+    padding: 5px;    
+    background-image: linear-gradient(to right, #F0F4FA , #ffffff);
+    box-shadow: none;
+    flex: 33%;
+}
+
+.imgStyle {
+    float: left;
+    width: 170px;
+    height: 100px;
+    margin-right : 10px; }
+
+.projHead {
+    margin: -5px ;
+    
+}
+#row {
+    display: flex;
+    width: 100%;
+}
+#column{
+    flex: 67%;
+    padding: 5px;
+}
+#column:first-of-type {
+    flex: 15%;
+    height: 50%;
+/*   background-color: lightgrey; */
+    
+/*     background-image: linear-gradient(to left, #AAC7DA , #ffffff);*/
+    margin: 18px;
+border-right: 3px solid lightgrey;
+    height: 350px;
+}
+
+
+#projectsSection{
+    margin: auto; 
+align-content: center;
+}
+
+#projList .plElement {
+    list-style-type: circle;
+    display: list-item;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    
+}
+#column>h3 {
+    margin: -3px;
+    padding-left: 15px;
+}
+
+.description{
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  #row {
+      display: block;
+    width: 100%;
+  }
+    #column:first-of-type {
+        border-right: none;
+border-bottom: 3px solid lightgrey;
+        height: auto;
+    }
+}
+
+.projectFiles{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-left: 3%;
+    padding-top: 8px;
+    
+    
+}
+
+/* END: PROJECTS */
+
+
+/* START: CONTACT */
+#header{
+    background-color: aqua;
+    overflow: auto;
+}
+
+#floatBoxes{
+    float:left;
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    background-color: #F0F4FA;
+    box-shadow: 5px 5px 10px #777777; 
+}
+
+
+@media only screen and (max-width: 720px){
+    .article1{
+        float: none;
+        display: block;
+        position: static;
+        min-height: 600px;
+    }
+    
+}
+
+
+/* END: CONTACT */
+
+
+
+/*  Social Icons    */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+ul.socials {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul.socials li.icon {
+    position: relative;
+    list-style: none;
+    margin: 0 2px;
+}
+ul.socials li.icon::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 40px;
+    height: 8px;
+    background: #000;
+    border-radius: 50%;
+    transition: 0.5s;
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0.8);
+}
+ul.socials li.icon:hover::before {
+    transition-delay: 0.2s;
+    opacity: 0.2;
+    transform: scale(1);
+}
+ul.socials li.icon a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    transition: 0.5s;
+}
+ul.socials li.icon:hover a {
+    transform: translateY(-10px);
+}
+ul.socials li.icon a span  {
+    width: 100%;
+    height: 100%;
+}
+ul.socials li.icon a span::before {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    color: #262626;
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+ul.socials li.icon:hover a span::before {
+    transform: rotateX(90deg) translateY(-50%);
+}
+ul.socials li.icon a span::after {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #fff;
+    color: #262626; */
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transform: rotateX(90deg) translateY(50%);
+}
+ul.socials li.icon:hover a span::after {
+    transform: rotateX(0deg) translateY(0);
+}
+ul.socials li.icon:nth-child(1) a span::before,
+ul.socials li.icon:nth-child(1) a span::after {
+    content: '\f09a';
+}
+ul.socials li.icon:nth-child(2) a span::before,
+ul li:nth-child(2) a span::after {
+    content: '\f099';
+}
+ul.socials li.icon:nth-child(3) a span::before,
+ul.socials li.icon:nth-child(3) a span::after {
+    content: '\f16d';
+}
+ul.socials li.icon:nth-child(4) a span::before,
+ul li:nth-child(4) a span::after {
+    content: '\f0e1';
+}
+ul.socials li.icon:nth-child(1) a span::after {
+    background: #3b5999;
+    color: #fff;
+}
+ul.socials li.icon:nth-child(2) a span::after {
+    background: #55acce;
+    color: #fff;
+}
+ul.socials li.icon:nth-child(3) a span::after {
+    background: #dd4b39;
+    color: #fff;
+}
+ul.socials li.icon:nth-child(4) a span::after {
+    background: #0077b5;
+    color: #fff;
+}
+/*  END: Social Icons   */

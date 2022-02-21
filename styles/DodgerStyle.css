@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 5;
+} 
+  
+/* Links inside the navbar */
+.navbar a {
+float: right;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navbar a:first-of-type {
+      float: left;
+} 
+
+footer {
+    color: #f2f2f2;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+body {
+    background-color: antiquewhite;
+    margin-top: 45px;
+}
+
+#console h1{
+    color: white;
+    display: inline;
+    padding-right: 20px;
+    padding-left: 30px;
+    margin: auto;
+}
+h1{
+    color: white;
+    display: inline;
+    margin: auto;
+    top: 50%;
+}
+#outer{
+    background-color: antiquewhite;
+    height: auto;
+    width: auto;
+    z-index: 1;
+    position: relative;  
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-bottom: none;
+    position: relative;
+    margin: auto;
+    top: 0px;
+}
+
+#console{
+    height: 50px;
+    width: 382px;
+    background-color: black;
+    z-index: 4;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding:10px;
+}
+#gamebtns {
+    display:flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#console button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    background-color: #35B3C3;
+    padding: 4px 10px;
+    margin-left:30px;
+    margin-right:30px;
+    text-decoration: none;
+    font-size: 16px;
+} 
+
+#character{
+    width: 40px;
+    height: 76px;
+    background-image: url("../images/gameRocket.png");
+    background-position: center;
+    position: relative;
+    top: 400px;
+    left: 150px;
+    z-index: 2;
+}
+
+#gameOver{
+    background-color: rgb(48, 0, 138);
+    opacity: 0.3;
+    width: 100%;
+    height: 76px;
+    background-position: center;
+    position: absolute;
+    top: auto;
+    left: 0px;
+    z-index: 3;
+    text-align: center;
+    display: flex;
+}
+#gameOverText{
+    text-align: center;
+}
+
+.block {
+    background-image: url("../images/asteroid80px.png");
+    background-position: 50% 50%;
+    background-size: fill;
+    position: relative;
+    display: block;
+    top: 0px;
+    left: 0px;
+    margin-top: -80px;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+table{
+    position: absolute;
+    left: 50%;
+    /* width: auto; */
+    border: 2px solid black;
+}
