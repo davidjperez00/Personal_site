@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> David Perez</title>
+        <meta name="description" content="fill in later!">
+        <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300&amp;display=swap" rel="stylesheet">
+     <!-- Google fonts (Next 2 Lines)-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+    </head>
+    
+  <body id="main">
+        <header>
+            <div class="navbar">
+                <a href="index.html">David Jon Perez</a>
+                <a href="projects.html">Projects</a>
+                <a href="academics.html">Academics</a>
+                <a href="contact.html">Contact Me</a>
+            </div>
+       </header>
+      
+      
+         <div id="projTop">
+            <div class="pageDes">
+                <h1>Projects</h1>
+                <h4>Welcom to my projects page! This section of my site is for engineering related topics I've dived some of my schoolwork. These range from building drones to some of the programs I've wrote. </h4>
+            </div>
+        </div>
+        
+        <section id="projectsSection">
+            <div id="row">
+            <div id="column">
+                <h3>Projects Index</h3>
+                <ul id="projList">
+                    <li class="plElement"><a href="#QuickSortVisual">Quick Sort Visual</a></li>
+                    <li class="plElement"><a href="#DodgerGame">Dodger Game</a></li>
+                    <li class="plElement"><a href="#droneBuild">Drone Build</a></li>
+                    <li class="plElement"><a href="#Servo Control Using Pushbutton">Servo Control Using Pushbutton</a>
+                </ul>
+            </div>
+            
+        <div id="column">
+
+        <div id="QuickSortVisual">
+            <article class="proj">
+                <h3>Quick Sort Visual</h3>
+                <img class="imgStyle" src="images/QuickSortSnapshot.png" alt="image of a rocket"/>
+                <p>This project is a visualization of the Quick Sort Algorithm. The implementation that
+                    I went with paritions from the middle of the inputed array. The visual shows where the 
+                    incrementers start for each parition and color code when the data in the array gets swapped.
+                </p>
+                <a class="projectFiles" href="quickSort.html">Quick Sort Visual Page</a>
+            </article>
+        </div>
+
+        <div id="DodgerGame">
+            <article class="proj">
+                <h3>Dodger Game</h3>
+                <img class="imgStyle" src="images/DodgerGameSnapshot.png" alt="image of a rocket"/>
+                 <p>For this project I decided to create a mini dodger game. The objective of the 
+                     game is to avoid falling asteroids by moving left and right. At the start of the game
+                     a player score and level is shown and increments until a player collides with an asteroid resulting in a
+                     a "Game Over!" banner being displayed. 
+                 </p>
+                 <a class="projectFiles" href="DodgerGame.html">Dodger Game Page</a>
+            </article>
+        </div>
+
+            <article class="proj">
+                <h3 id="droneBuild">Drone Build</h3>
+                <img class="imgStyle" src="images/droneBuild.jpeg" alt="image of a rocket"/>
+                <p>Over the summer of 2020 I taught myself how to solder and build FPV 
+                (first person view) drones. I also recorded the experience and posted a
+                 short montage of my flights and uploaded them 
+                 to <a href="https://www.youtube.com/watch?v=xH9fMbQHOzc&t=3s" >my youtube channel</a>. </p>
+            </article>
+            
+            <article class="proj">
+                   <h3 id="Servo Control Using Pushbutton">Servo Control Using Pushbutton</h3>
+                    <p>This program was uses a PWM signal to control a servo motor 
+                        using the C programming language. Along with that there is a 
+                        pushbutton that is debounced to turn the motor clockwise and counterclockwise. </p>
+                    <a class="projectFiles" href="files/ServoPushbutton" target="_blank" >C Program File</a>
+            </article>
+            
+
+            </div>
+            </div>
+        
+            
+        </section>
+    
+        <footer>
+            &copy;David Perez, 2020
+        </footer>
+</body>
+</html>

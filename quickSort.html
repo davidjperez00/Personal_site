@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/visualization.js" defer> </script>
+    <link href="styles/sort_style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Quick Sort Visualization</title>
+    
+    </head>
+
+    <header>
+      <div class="navbar">
+          <a href="index.html">David Jon Perez</a>
+          <a href="projects.html">Projects</a>
+          <a href="academics.html">Academics</a>
+          <a href="contact.html">Contact Me</a>
+      </div>
+  </header>
+
+    <body>
+      <div class="info">          
+        <h1 id='title'>Quick Sort Visualization</h1>
+        <div class="border">
+          <p>This program makes takes a input of numbers sepearated by commas
+            and shows how the quickSort algorithm sorts numbers. The display
+            shows the partitioning of the algorithm by indexing an array and selecting a pivot 
+            element. Index <b>i</b> increments through array until reaching a number greater
+            than the pivot element, then index <b>j</b> decrements through the array before
+            reaching a number smaller than the pivot. This repeats while <b>i <= j</b>.
+          </p>
+          <p><b>Color Combinations Key:        </b></p>
+          <ul>
+            <h5 style="color: red">i incrementor</h5>
+            <h5 style="color: green">j incrementor</h5>
+            <h5 style="color: blue">pivot element</h5>
+            <h5 style="color: purple">swap elements</h5>
+          </ul>
+          <h4>Enter 1-10 numbers sepearated by commas without spaces below</h4>
+        </div>
+        <div class="go">
+          <input id='inputText' type='text' placeholder="Example: 2,4,3,5,1">
+          <p id='testText'><button href="#" onclick="driver()">Run</button></p>
+        </div>
+      </div>
+      
+    <div class="container">
+      <!-- This is the div that the JS file puts data into -->
+      <div id="main">
+
+      </div>
+    </div>
+
+    <footer>
+      &copy;David Perez, 2020
+    </footer>
+  </body>
+</html>
+
