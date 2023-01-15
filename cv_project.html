@@ -2,8 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Asteroid Dodger</title>
-        <link rel="stylesheet" href="styles/DodgerStyle.css">
+        <title>Computer Vision Math Equation</title>
+        <script src="https://kit.fontawesome.com/a03377a90b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/cvproject.css">
+         <!-- Google fonts (Next 2 Lines)-->
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    
     </head>
 
     <header>
@@ -16,12 +21,18 @@
     </header>
 
     <body>
-        <div id="outer">
-                <h2>Computer Vision Handwriten Math Equation Interpreter </h2>
-
-                <div>
+        <div class="inner-container">
+                <h2>Computer Vision Handwriten Math Equation&nbsp;Interpreter </h2>
+            <div class="twoGrid">
+                <div class="itemOne">
+                    <iframe width="350" height="450" src="https://youtube.com/embed/831hzDp_bj4?feature=share" 
+                    title="YouTube video player" frameborder="0"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                    gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="itemTwo">
                     <p>From a high level view this project takes in an image of a basic arithmetic
-                      equation and outputs the solution to the equation in the image.
+                      equation and outputs the solution to the equation in the&nbsp;image. <br><br>
                       For instance, suppose an image contains the handwritten equation “5 + 3”.
                       The first step in identifying and solving the equation is identifying
                       characteristics in the image that are either digits or arithmetic operators
@@ -33,20 +44,15 @@
                       The images are then sorted based on their position in the original image from
                       left to right. Lastly, the resulting equation, preprocessed images, and inputted
                       image with bounding boxes where the digits and operators were extracted are 
-                      displayed as output.
+                      displayed as&nbsp;output. <br><br>
                     </p>
-
-                    <a href="https://github.com/davidjperez00/ideal-funicular">Github Repository</a>
+                    
+                    <a href="https://github.com/davidjperez00/ideal-funicular" target="_blank"><i class="fab fa-github"></i>Github Repository</a>
                 </div>
-
-                <iframe width="160" height="300" src="https://youtube.com/embed/831hzDp_bj4?feature=share" 
-                title="YouTube video player" frameborder="0"
-                 allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
             </div>
         <footer>
             &copy;David Perez, 2020
         </footer>
     </body>
-    <script src="js/DodgerScript.js"></script>
 </html>

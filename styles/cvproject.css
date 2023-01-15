@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 5;
+} 
+  
+/* Links inside the navbar */
+.navbar a {
+float: right;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.navbar a:first-of-type {
+      float: left;
+} 
+
+footer {
+    color: #f2f2f2;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+body {
+    background-color: #F7F2EC;
+    margin-top: 45px;
+}
+
+.inner-container {
+    padding: 40px 90px;
+}
+
+h2 {
+    font-size:35px;
+    text-align:center;
+    margin-bottom:39px;
+    font-family: 'Crimson Text', serif;
+}
+
+.twoGrid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.itemTwo{
+    margin-left:40px;
+}
+
+.itemTwo p{
+ font-size:20px;
+}
+
+.itemTwo a {
+    text-decoration:none;
+    color:#333;
+    font-size:19px;
+}
+.itemTwo a:hover {
+    color:#778DA8;
+}
+.itemTwo i {
+    padding-right:5px;
+}
+
+@media only screen and (max-width: 935px) {
+    .twoGrid{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .inner-container {
+        padding: 40px 20px;
+        padding-bottom:65px;
+
+    }
+    .itemTwo{
+        font-size:18px;
+        margin-bottom:20px;
+       }
+       h2 {
+        font-size:30px;
+        text-align:center;
+        margin-bottom:35px;
+    }
+  }
