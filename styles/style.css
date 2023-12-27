@@ -398,7 +398,14 @@ align-content: center;
     display: list-item;
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
-    
+    text-decoration: none;
+}
+#projList a{
+    list-style-type: circle;
+    display: list-item;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
 }
 #column>h3 {
     margin: -3px;
